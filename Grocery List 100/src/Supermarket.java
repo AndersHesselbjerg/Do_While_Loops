@@ -1,6 +1,3 @@
-
-import java.util.ArrayList;
-
 public class Supermarket {
     public static void main(String[] args) {
         //GroceryItemOrder[] groceries = new GroceryItemOrder[100];
