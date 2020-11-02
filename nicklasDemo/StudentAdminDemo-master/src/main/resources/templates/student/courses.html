@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Course Name</th>
+        <th>Start Date</th>
+        <th>etcs points</th>
+        <th>Kursus Beskrivelse</th>
+        <th>Details</th>
+        <th>Delete</th>
+        <th>Update</th>
+        <th>Create a new course</th>
+    </tr>
+    <tr th:each="course : ${courselist}">
+        <td th:text="${course.kursusNavn}"></td>
+        <td th:text="${course.startDato}"></td>
+        <td th:text="${course.etcs}"></td>
+        <td th:text="${course.kursusBeskrivelse}"></td>
+        <td><a th:href="@{/course(kursus_id=${course.kursus_id})}"><button>Details</button>
+        <td><a th:href="@{/deletecourse(kursus_id=${course.kursus_id})}"><button>Delete</button>
+        <td><a th:href="@{/updatecourse(kursus_id=${course.kursus_id})}"><button>Update</button>
+        <td><a th:href="@{/createcourse(kursus_id=${course.kursus_id})}"><button>Create course</button>
+
+
+
+    </tr>
+
+</table>
+
+</body>
+</html>

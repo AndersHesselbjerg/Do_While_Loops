@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+</head>
+<body>
+
+<div id="navbar">
+    <ul class="nav">
+        <li><a href="/">Student Overview</a></li>
+        <li><a href="/courses">Courses</a></li>
+    </ul>
+</div>
+
+<p>First Name: <span th:text="${student.firstName}"></span> </p>
+<br>
+<p>Last Name: <span th:text="${student.lastName}"></span> </p>
+<br>
+<p>Enrollment Date: <span th:text="${student.enrollmentDate}"></span></p>
+<br>
+<p>CPR: <span th:text="${student.cpr}"></span> </p>
+<br>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Enrol students</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+</head>
+<body>
+
+<div id="navbar">
+    <ul class="nav">
+        <li><a href="/">Student Overview</a></li>
+        <li><a href="/courses">Courses</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h1>New Course</h1>
+    <form action="/addcourse" method="post"> <!-- dette sker når vi klikker på submit (action)-->
+
+        <label for="kursusNavn">Course Name</label><br>
+        <input type="text" name="kursusNavn" id="kursusNavn">
+        <br>
+        <label for="startDato">Start Dato</label><br>
+        <input type="text" name="startDato" id="startDato">
+        <br>
+        <label for="etcs">ETCS Point:</label><br>
+        <input type="number" name="etcs" id="etcs">
+        <br>
+        <label for="kursusBeskrivelse">Kursus Beskrivelse</label><br>
+        <input type="text" name="kursusBeskrivelse" id="kursusBeskrivelse">
+        <button type="submit" name="submit" button class="btn btn-create">Create</button>
+    </form>
+</div>
+
+
+
+
+
+</body>
+</html>

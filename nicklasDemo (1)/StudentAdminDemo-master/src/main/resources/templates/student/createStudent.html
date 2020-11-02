@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Enrol students</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+</head>
+<body>
+
+<div id="navbar">
+    <ul class="nav">
+        <li><a href="/">Student Overview</a></li>
+        <li><a href="/courses">Courses</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h1>New student</h1>
+    <form action="/student/addStudent" method="post"> <!-- dette sker når vi klikker på submit (action)-->
+
+        <label for="firstName">First name</label><br>
+        <input type="text" name="firstName" id="firstName">
+        <br>
+        <label for="lastName">Last name</label><br>
+        <input type="text" name="lastName" id="lastName">
+        <br>
+        <label for="enrollmentDate">Enrollment Date: Format yyyy-mm-dd</label><br>
+        <input type="text" name="enrollmentDate" id="enrollmentDate">
+        <br>
+        <label for="cpr">cpr</label><br>
+        <input type="text" name="cpr" id="cpr">
+        <button type="submit" name="submit" button class="btn btn-create">Create</button>
+    </form>
+</div>
+
+
+
+
+
+</body>
+</html>

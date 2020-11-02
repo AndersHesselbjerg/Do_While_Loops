@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+</head>
+<body>
+
+<div id="navbar">
+    <ul class="nav">
+        <li><a href="/courses">Go to courses</a></li>
+        <li><a href="/">Student overview</a></li>
+    </ul>
+</div>
+
+<h1>Details</h1>
+
+<p>Course name: <span th:text="${kurset.kursusNavn}"></span> </p>
+<br>
+<p>Start Date: <span th:text="${kurset.startDato}"></span></p>
+<br>
+<p>ETCS points: <span th:text="${kurset.etcs}"></span> </p>
+<br>
+<p>Course Description: <span th:text="${kurset.kursusBeskrivelse}"></span> </p>
+
+
+</body>
+</html>

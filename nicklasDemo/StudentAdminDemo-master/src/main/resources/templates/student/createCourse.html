@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Grocery Overview</title>
+    <style>
+
+        p.small{
+            line-height: 1.0;
+        }
+
+        #række{
+            display:inline-block;
+        }
+
+        #venstreKolonne{
+            background-color: aqua;
+            float: left;
+        }
+
+        #højreKolonne{
+            background-color: bisque;
+            float: right;
+        }
+
+        .kolonne{
+            width: 400px;
+            height: 400px;
+        }
+
+    </style>
+
+</head>
+<body>
+<h1>hej</h1>
+<div id="række">
+    <!--- Her er vores formular -->
+    <div id="venstreKolonne" class="kolonne">
+        <h1>Indtast vare</h1>
+        <form action="/addcourse" method="post"> <!-- dette sker når vi klikker på submit (action)-->
+
+
+            <label for="kursusNavn">Kursus Navn</label>
+            <input type="text" name="kursusNavn" id="kursusNavn">
+            <br>
+            <label for="startDato">Start Dato</label>
+            <input type="text" name="startDato" id="startDato">
+            <br>
+            <label for="etcs">Etcs point:</label>
+            <input type="number" name="etcs" id="etcs">
+            <br>
+            <label for="kursusBeskrivelse">Kursus Bekrivelse:</label>
+            <input type="text" name="kursusBeskrivelse" id="kursusBeskrivelse">
+            <input type="submit" name="submit">
+
+        </form>
+    </div>
+    <div id ="højreKolonne" class="kolonne">
+
+        <!---Her viser vi indhold fra fakedatabase -->
+
+
+
+
+        </li>
+
+        </ul>
+
+
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

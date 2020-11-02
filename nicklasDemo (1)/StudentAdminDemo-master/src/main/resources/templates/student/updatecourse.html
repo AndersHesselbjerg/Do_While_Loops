@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Updagte student</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+
+<div id="navbar">
+    <ul class="nav">
+        <li><a href="/">Student overview</a></li>
+        <li><a href="/courses">Courses</a></li>
+    </ul>
+</div>
+<div class="container">
+    <!--- Her er vores formular -->
+
+
+    <form action="/updatedcourse" method="post"> <!-- dette sker når vi klikker på submit (action)-->
+
+        <label for="kursusNavn">State the name of the course you would like to update:</label>
+        <input type="text" name="kursusNavn" id="kursusNavn">
+        <br>
+        <label for="startDato">Start Dato</label>
+        <input type="text" name="startDato" id="startDato">
+        <br>
+        <label for="etcs">Etcs point:</label>
+        <input type="number" name="etcs" id="etcs">
+        <br>
+        <label for="kursusBeskrivelse">Kursus Bekrivelse:</label>
+        <input type="text" name="kursusBeskrivelse" id="kursusBeskrivelse">
+
+        <button type="submit" name="submit" button class="btn btn-create">Update</button>
+    </form>
+</div>
+
+</body>
+</html>

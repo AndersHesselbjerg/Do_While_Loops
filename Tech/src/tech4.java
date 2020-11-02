@@ -1,0 +1,2 @@
+public class tech4 {
+}
