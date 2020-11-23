@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6c0e65a-3007-49d0-881b-81995645e018" name="Default Changelist" comment="" />
+    <list default="true" id="c6c0e65a-3007-49d0-881b-81995645e018" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Nyt Spring projekt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Nyt Spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18_while_getters" beforeDir="false" afterPath="$PROJECT_DIR$/../18_while_getters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Datingapp" beforeDir="false" afterPath="$PROJECT_DIR$/../Datingapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miniprojekt3" beforeDir="false" afterPath="$PROJECT_DIR$/../Miniprojekt3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NY HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../NY HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nyt Spring projekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nyt Spring projekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Nyt Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Nyt Spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoskildeBornehaveNy" beforeDir="false" afterPath="$PROJECT_DIR$/../RoskildeBornehaveNy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StopMadSpild" beforeDir="false" afterPath="$PROJECT_DIR$/../StopMadSpild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StopMadSpild2" beforeDir="false" afterPath="$PROJECT_DIR$/../StopMadSpild2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StopMadSpild3" beforeDir="false" afterPath="$PROJECT_DIR$/../StopMadSpild3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student" beforeDir="false" afterPath="$PROJECT_DIR$/../Student" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Studentadminstration" beforeDir="false" afterPath="$PROJECT_DIR$/../Studentadminstration" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1-github" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1-github" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarmupCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../WarmupCalculator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bornehaveprojekt" beforeDir="false" afterPath="$PROJECT_DIR$/../bornehaveprojekt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstyearproject" beforeDir="false" afterPath="$PROJECT_DIR$/../firstyearproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../github" beforeDir="false" afterPath="$PROJECT_DIR$/../github" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gruppe-a-mewie" beforeDir="false" afterPath="$PROJECT_DIR$/../gruppe-a-mewie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../htmlDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../htmlDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miniprojekt" beforeDir="false" afterPath="$PROJECT_DIR$/../miniprojekt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1aqd4LAqhpI8jHp8L3IFPptRcqO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring Projekt 9.16.2019" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,20 +65,17 @@
       <option name="presentableId" value="Default" />
       <updated>1587466865462</updated>
       <workItem from="1587466868393" duration="1376000" />
+      <workItem from="1604495662579" duration="1300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1587466888384">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1604495677070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587466888384" />
-    <state x="342" y="83" key="new project wizard" timestamp="1587467656762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="83" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587467656762" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604495677070" />
   </component>
 </project>
